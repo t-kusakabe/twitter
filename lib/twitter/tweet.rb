@@ -47,5 +47,9 @@ module Twitter
     end
     memoize :uri
     alias url uri
+
+    def foo
+      'test'
+    end
   end
 end
